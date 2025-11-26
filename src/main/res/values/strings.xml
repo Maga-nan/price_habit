@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Цена привычки</string>
+    <string name="tab_expenses" translatable="false">Затраты</string>
+    <string name="tab_income" translatable="false">Прибыль</string>
+    <string name="tab_goals" translatable="false">Цели</string>
+    <string name="tab_analytics" translatable="false">Аналитика</string>
+    <string name="tab_settings" translatable="false">Настройки</string>
+    <string name="add_entry" translatable="false">Добавить</string>
+    <string name="dialog_add_title" translatable="false">Добавить запись</string>
+    <string name="where_spent" translatable="false">Куда израсходовано</string>
+    <string name="amount" translatable="false">Сумма</string>
+    <string name="currency" translatable="false">Валюта</string>
+    <string name="save" translatable="false">Сохранить</string>
+</resources>

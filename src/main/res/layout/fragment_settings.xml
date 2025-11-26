@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Язык приложения"/>
+    <Spinner android:id="@+id/spinner_language" android:layout_width="match_parent" android:layout_height="wrap_content" android:entries="@array/langs" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Валюта" android:paddingTop="12dp"/>
+    <Spinner android:id="@+id/spinner_currency" android:layout_width="match_parent" android:layout_height="wrap_content" android:entries="@array/currencies" />
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Тема приложения" android:paddingTop="12dp"/>
+    <Spinner android:id="@+id/spinner_theme" android:layout_width="match_parent" android:layout_height="wrap_content" android:entries="@array/theme_modes" />
+
+</LinearLayout>
